@@ -1,14 +1,16 @@
 # Claude RTL Fix
 
-**Safari extension for macOS** that automatically applies right-to-left (RTL) text direction to Hebrew and Arabic responses on [claude.ai](https://claude.ai).
+A **free Safari extension for macOS** that automatically fixes right-to-left (RTL) text direction for Hebrew and Arabic responses on [claude.ai](https://claude.ai).
 
-[![Download on the App Store](https://img.shields.io/badge/App_Store-Download-0d96f6?logo=apple)](https://apps.apple.com/app/id6778786459)
+[![Download on the Mac App Store](https://img.shields.io/badge/Mac_App_Store-Download-0d96f6?logo=apple)](https://apps.apple.com/app/id6778786459)
+
+> **Requires:** macOS · Safari
 
 ---
 
 ## What it does
 
-Claude's interface renders all responses left-to-right by default. For Hebrew and Arabic speakers this makes AI-generated text hard to read. Claude RTL Fix detects RTL languages automatically and flips each paragraph, list item, and heading to the correct direction — in real time, as Claude types.
+Claude renders all responses left-to-right by default. For Hebrew and Arabic speakers this makes AI-generated text hard or impossible to read. Claude RTL Fix is a Safari extension that detects RTL languages automatically and flips each paragraph, list item, and heading to the correct direction — in real time, as Claude types.
 
 - **Automatic** — no clicking, no manual toggling
 - **Per-paragraph** — mixed-language replies stay readable
@@ -17,7 +19,10 @@ Claude's interface renders all responses left-to-right by default. For Hebrew an
 
 ## Installation
 
-[Download from the Mac App Store](https://apps.apple.com/app/id6778786459), then enable the extension in **Safari → Settings → Extensions**.
+1. [Download from the Mac App Store](https://apps.apple.com/app/id6778786459)
+2. Open the app and click **"Quit and Open Safari Extensions Preferences…"**
+3. Enable **Claude RTL Fix** in the list
+4. Open [claude.ai](https://claude.ai) — Hebrew and Arabic responses are now RTL automatically
 
 ## How it works
 
