@@ -60,9 +60,9 @@
 		6001BF2A2FD895C0002F4E03 /* Claude RTL Fix Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Claude RTL Fix Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6001BF2F2FD895C0002F4E03 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		6001BF312FD895C0002F4E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6001BF3C2FD895C1002F4E03 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = "../../../../../var/folders/nf/qwyh4fkx293cr939c2z354940000gn/T/tmp.pPMCebcdly/claude-rtl-src/images"; sourceTree = "<group>"; };
-		6001BF3D2FD895C1002F4E03 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../../../var/folders/nf/qwyh4fkx293cr939c2z354940000gn/T/tmp.pPMCebcdly/claude-rtl-src/manifest.json"; sourceTree = "<group>"; };
-		6001BF3E2FD895C1002F4E03 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../../../../../var/folders/nf/qwyh4fkx293cr939c2z354940000gn/T/tmp.pPMCebcdly/claude-rtl-src/content.js"; sourceTree = "<group>"; };
+		6001BF3C2FD895C1002F4E03 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Resources/images"; sourceTree = "<group>"; };
+		6001BF3D2FD895C1002F4E03 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Resources/manifest.json"; sourceTree = "<group>"; };
+		6001BF3E2FD895C1002F4E03 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "Resources/content.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -424,6 +424,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J95882LJM7;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -458,6 +459,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J95882LJM7;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
@@ -495,6 +497,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J95882LJM7;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
@@ -516,7 +519,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ariel.Claude-RTL-Fix";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ariel.ClaudeRTL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -536,6 +539,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J95882LJM7;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
@@ -557,7 +561,7 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ariel.Claude-RTL-Fix";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ariel.ClaudeRTL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;

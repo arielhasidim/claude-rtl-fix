@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+DerivedData/
+
+# Icon generation venv (local only)
+.iconvenv/
+
+# Build output
+build/

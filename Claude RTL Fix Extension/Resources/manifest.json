@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Claude RTL Fix",
+  "version": "1.0.0",
+  "description": "Applies RTL text direction for Hebrew and Arabic responses on claude.ai",
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [],
+  "icons": {
+    "48":  "images/icon-48.png",
+    "96":  "images/icon-96.png",
+    "128": "images/icon-128.png"
+  }
+}
